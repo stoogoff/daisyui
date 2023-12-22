@@ -1,7 +1,7 @@
 {
   "name": "vue-daisy-ui",
   "licence": "CC0 1.0 Universal",
-  "version": "1.0.7",
+  "version": "0.0.1",
   "private": true,
   "peerDependencies": {
     "nuxt": "^2.15.8",
