@@ -1,20 +1,14 @@
 <template>
-	<button class="btn" @click="$emit('click')" :disabled="disabled"><slot /></button>
+	<button class="btn" :class="classes" @click="$emit('click')" :disabled="disabled"><slot /></button>
 </template>
 <script>
 
 import Vue from 'vue'
-import { createProps, createClasses } from '~/utils/props'
+import { createComponent, colours, states, sizes } from './props'
 
+const PREFIX = 'btn'
 const CLASS_LIST = [
 	'btn-neutral',
-	'btn-primary',
-	'btn-secondary',
-	'btn-accent',
-	'btn-info',
-	'btn-success',
-	'btn-warning',
-	'btn-error',
 	'btn-ghost',
 	'btn-link',
 	'btn-outline',
@@ -22,24 +16,15 @@ const CLASS_LIST = [
 	'btn-disabled',
 	'glass',
 	'no-animation',
-	'btn-lg',
-	'btn-md',
-	'btn-sm',
-	'btn-xs',
 	'btn-wide',
 	'btn-block',
 	'btn-circle',
 	'btn-square',
+	...colours(PREFIX),
+	...states(PREFIX),
+	...sizes(PREFIX),
 ]
 
-export default Vue.component('Button', {
-	props: createProps('btn', CLASS_LIST),
-
-	computed: {
-		classes() {
-			return createClasses('btn', CLASS_LIST, this)
-		},
-	},
-})
+export default Vue.component('Button', createComponent(PREFIX, CLASS_LIST))
 
 </script>
