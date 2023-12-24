@@ -4,11 +4,16 @@
 <script>
 
 import Vue from 'vue'
-import { createComponent, states } from './props'
+import { createComponent } from './props'
 
-const PREFIX = 'alert'
-const CLASS_LIST = states(PREFIX)
+const CLASS_LIST = [
+	// states
+	'alert-info',
+	'alert-success',
+	'alert-warning',
+	'alert-error',
+]
 
-export default Vue.component('Alert', createComponent(PREFIX, CLASS_LIST))
+export default Vue.component('Alert', createComponent('alert', CLASS_LIST))
 
 </script>

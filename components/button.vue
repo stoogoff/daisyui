@@ -4,9 +4,8 @@
 <script>
 
 import Vue from 'vue'
-import { createComponent, colours, states, sizes } from './props'
+import { createComponent } from './props'
 
-const PREFIX = 'btn'
 const CLASS_LIST = [
 	'btn-neutral',
 	'btn-ghost',
@@ -20,11 +19,22 @@ const CLASS_LIST = [
 	'btn-block',
 	'btn-circle',
 	'btn-square',
-	...colours(PREFIX),
-	...states(PREFIX),
-	...sizes(PREFIX),
+	// colours
+	'btn-primary',
+	'btn-secondary',
+	'btn-accent',
+	// states
+	'btn-info',
+	'btn-success',
+	'btn-warning',
+	'btn-error',
+	// sizes
+	'btn-xs',
+	'btn-sm',
+	'btn-md',
+	'btn-lg',
 ]
 
-export default Vue.component('Button', createComponent(PREFIX, CLASS_LIST))
+export default Vue.component('Button', createComponent('btn', CLASS_LIST))
 
 </script>

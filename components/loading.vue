@@ -4,9 +4,8 @@
 <script>
 
 import Vue from 'vue'
-import { createComponent, sizes } from './props'
+import { createComponent } from './props'
 
-const PREFIX = 'loading'
 const CLASS_LIST = [
 	'loading-spinner',
 	'loading-dots',
@@ -14,9 +13,13 @@ const CLASS_LIST = [
 	'loading-ball',
 	'loading-bars',
 	'loading-infinity',
-	...sizes(PREFIX),
+	// sizes
+	'loading-xs',
+	'loading-sm',
+	'loading-md',
+	'loading-lg',
 ]
 
-export default Vue.component('Loading', createComponent(PREFIX, CLASS_LIST))
+export default Vue.component('Loading', createComponent('loading', CLASS_LIST))
 
 </script>

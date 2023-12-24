@@ -4,15 +4,21 @@
 <script>
 
 import Vue from 'vue'
-import { createComponent, colours, states } from './props'
+import { createComponent } from './props'
 
-const PREFIX = 'progress'
 const CLASS_LIST = [
-	...colours(PREFIX),
-	...states(PREFIX),
+	// colours
+	'progress-primary',
+	'progress-secondary',
+	'progress-accent',
+	// states
+	'progress-info',
+	'progress-success',
+	'progress-warning',
+	'progress-error',
 ]
 
-const component = createComponent(PREFIX, CLASS_LIST)
+const component = createComponent('progress', CLASS_LIST)
 
 component.props.value = {
 	type: Number,
@@ -22,10 +28,6 @@ component.props.max = {
 	type: Number,
 	default: 0,
 }
-
-console.log(CLASS_LIST)
-console.log(PREFIX)
-console.log(component)
 
 export default Vue.component('Progress', component)
 

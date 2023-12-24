@@ -4,21 +4,29 @@
 <script>
 
 import Vue from 'vue'
-import { createComponent, colours, states, sizes } from './props'
+import { createComponent } from './props'
 
-const PREFIX = 'badge'
 const CLASS_LIST = [
 	'badge-neutral',
 	'badge-ghost',
 	'badge-link',
 	'badge-outline',
-	...colours(PREFIX),
-	...states(PREFIX),
-	...sizes(PREFIX),
+	// colours
+	'badge-primary',
+	'badge-secondary',
+	'badge-accent',
+	// states
+	'badge-info',
+	'badge-success',
+	'badge-warning',
+	'badge-error',
+	// sizes
+	'badge-xs',
+	'badge-sm',
+	'badge-md',
+	'badge-lg',
 ]
 
-console.log(CLASS_LIST)
-
-export default Vue.component('Badge', createComponent(PREFIX, CLASS_LIST))
+export default Vue.component('Badge', createComponent('badge', CLASS_LIST))
 
 </script>

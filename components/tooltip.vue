@@ -4,20 +4,26 @@
 <script>
 
 import Vue from 'vue'
-import { createComponent, colours, states } from './props'
+import { createComponent } from './props'
 
-const PREFIX = 'tooltip'
 const CLASS_LIST = [
 	'tooltip-open',
 	'tooltip-top',
 	'tooltip-bottom',
 	'tooltip-left',
 	'tooltip-right',
-	...colours(PREFIX),
-	...states(PREFIX),
+	// colours
+	'tooltip-primary',
+	'tooltip-secondary',
+	'tooltip-accent',
+	// states
+	'tooltip-info',
+	'tooltip-success',
+	'tooltip-warning',
+	'tooltip-error',
 ]
 
-const component = createComponent(PREFIX, CLASS_LIST)
+const component = createComponent('tooltip', CLASS_LIST)
 
 component.props.title = {
 	type: String,

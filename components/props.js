@@ -44,11 +44,3 @@ export const createComponent = (prefix, classes) => ({
 		},
 	},
 })
-
-const SIZES = ['xs', 'sm', 'md', 'lg']
-const STATES = ['info', 'success', 'warning', 'error']
-const COLOURS = ['primary', 'secondary', 'accent']
-
-export const sizes = prefix => SIZES.map(t => `${ prefix }-${ t }`)
-export const states = prefix => STATES.map(t => `${ prefix }-${ t }`)
-export const colours = prefix => COLOURS.map(t => `${ prefix }-${ t }`)
