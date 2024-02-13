@@ -39,7 +39,6 @@ export const createComponent = (prefix, classes) => ({
 
 	computed: {
 		classes() {
-			console.log(createClasses(prefix, classes, this))
 			return createClasses(prefix, classes, this)
 		},
 	},
