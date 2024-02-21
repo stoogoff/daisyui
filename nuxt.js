@@ -1,7 +1,12 @@
 import { join } from 'path'
 
 const components = [
-	'components',
+	'actions',
+	'data',
+	'feedback',
+	'input',
+	'layout',
+	'navigation',
 ]
 
 export default function() {

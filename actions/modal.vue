@@ -11,29 +11,21 @@
 <script>
 
 import Vue from 'vue'
-import { createProps } from './props'
+import { createComponent } from '../props'
 
-const PREFIX = 'modal'
 const CLASS_LIST = [
 	'modal-top',
 	'modal-middle',
 	'modal-bottom',
 ]
 
-export default Vue.component('Modal', {
-	props: {
-		...createProps(PREFIX, CLASS_LIST),
-		showCancel: {
-			type: Boolean,
-			default: false,
-		},
-	},
+const component = createComponent('modal', CLASS_LIST)
 
-	computed: {
-		classes() {
-			return createClasses(PREFIX, CLASS_LIST, this)
-		},
-	},
-})
+component.props.showCancel = {
+	type: Boolean,
+	default: false,
+}
+
+export default Vue.component('Modal', component)
 
 </script>

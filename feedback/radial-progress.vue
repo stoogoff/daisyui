@@ -4,7 +4,7 @@
 <script>
 
 import Vue from 'vue'
-import { createComponent } from './props'
+import { createComponent } from '../props'
 
 const component = createComponent('radial-progress', [])
 
