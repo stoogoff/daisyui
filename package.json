@@ -5,6 +5,6 @@
   "private": true,
   "peerDependencies": {
     "nuxt": "^2.15.8",
-    "daisyui": "^4.4.23"
+    "daisyui": "^4.7.2"
   }
 }
