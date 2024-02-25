@@ -1,5 +1,5 @@
 <template>
-	<span class="inline-block w-5" v-html="icon" />	
+	<span class="inline-block w-5 h-5" v-html="icon" />	
 </template>
 <script>
 

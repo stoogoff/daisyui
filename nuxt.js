@@ -7,6 +7,7 @@ const components = [
 	'input',
 	'layout',
 	'navigation',
+	'transitions',
 ]
 
 export default function() {
