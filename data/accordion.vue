@@ -1,5 +1,5 @@
 <template>
-	<div class="collapse bg-base-200" :class="classes">
+	<div class="collapse" :class="classes">
 		<input type="checkbox" :name="group" /> 
 		<div class="collapse-title text-xl font-medium">
 			<slot name="title" />
@@ -19,6 +19,13 @@ const CLASS_LIST = [
 	'collapse-plus',
 	'collapse-open',
 	'collapse-close',
+	// shadow
+	'shadow-sm',
+	'shadow',
+	'shadow-md',
+	'shadow-lg',
+	'shadow-xl',
+	'shadow-2xl',
 ]
 
 const component = createComponent('collapse', CLASS_LIST)

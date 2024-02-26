@@ -23,6 +23,12 @@ const CLASS_LIST = [
 	'card-normal',
 	'card-compact',
 	'card-side',
+	// shadow
+	'shadow-sm',
+	'shadow',
+	'shadow-md',
+	'shadow-lg',
+	'shadow-xl',
 ]
 
 const component = createComponent('card', CLASS_LIST)

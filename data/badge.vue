@@ -25,6 +25,12 @@ const CLASS_LIST = [
 	'badge-sm',
 	'badge-md',
 	'badge-lg',
+	// shadow
+	'shadow-sm',
+	'shadow',
+	'shadow-md',
+	'shadow-lg',
+	'shadow-xl',
 ]
 
 export default Vue.component('Badge', createComponent('badge', CLASS_LIST))

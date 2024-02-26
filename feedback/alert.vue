@@ -12,6 +12,12 @@ const CLASS_LIST = [
 	'alert-success',
 	'alert-warning',
 	'alert-error',
+	// shadow
+	'shadow-sm',
+	'shadow',
+	'shadow-md',
+	'shadow-lg',
+	'shadow-xl',
 ]
 
 export default Vue.component('Alert', createComponent('alert', CLASS_LIST))
