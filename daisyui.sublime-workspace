@@ -163,6 +163,210 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "actions/dropdown-menu.vue",
+			"redo_stack":
+			[
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": " }"
+					},
+					"AgAAAIgAAAAAAAAAiAAAAAAAAAABAAAAfYcAAAAAAAAAhwAAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJAAAAAAAAAIkAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": " item"
+					},
+					"BQAAAIYAAAAAAAAAhgAAAAAAAAABAAAAbYUAAAAAAAAAhQAAAAAAAAABAAAAZYQAAAAAAAAAhAAAAAAAAAABAAAAdIMAAAAAAAAAgwAAAAAAAAABAAAAaYIAAAAAAAAAggAAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACHAAAAAAAAAIcAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": "{"
+					},
+					"AQAAAIEAAAAAAAAAgQAAAAAAAAABAAAAew",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACCAAAAAAAAAIIAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					22,
+					1,
+					"insert_snippet",
+					{
+						"contents": "\"$0\""
+					},
+					"AQAAAIAAAAAAAAAAgAAAAAAAAAACAAAAIiI",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACBAAAAAAAAAIEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": "m="
+					},
+					"AgAAAH8AAAAAAAAAfwAAAAAAAAABAAAAPX4AAAAAAAAAfgAAAAAAAAABAAAAbQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "bind:ite"
+					},
+					"CAAAAH0AAAAAAAAAfQAAAAAAAAABAAAAZXwAAAAAAAAAfAAAAAAAAAABAAAAdHsAAAAAAAAAewAAAAAAAAABAAAAaXoAAAAAAAAAegAAAAAAAAABAAAAOnkAAAAAAAAAeQAAAAAAAAABAAAAZHgAAAAAAAAAeAAAAAAAAAABAAAAbncAAAAAAAAAdwAAAAAAAAABAAAAaXYAAAAAAAAAdgAAAAAAAAABAAAAYg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB+AAAAAAAAAH4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": " v-"
+					},
+					"AwAAAHUAAAAAAAAAdQAAAAAAAAABAAAALXQAAAAAAAAAdAAAAAAAAAABAAAAdnMAAAAAAAAAcwAAAAAAAAABAAAAIA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB2AAAAAAAAAHYAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"close_tag",
+					{
+						"insert_slash": true
+					},
+					"AQAAAPIAAAAAAAAA8gAAAAAAAAAGAAAAL3Nsb3Q+",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD4AAAAAAAAAPgAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "<"
+					},
+					"AQAAAPEAAAAAAAAA8QAAAAAAAAABAAAAPA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADyAAAAAAAAAPIAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					14,
+					1,
+					"left_delete",
+					null,
+					"AQAAAPEAAAAAAAAA8gAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADxAAAAAAAAAPEAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AgAAAO4AAAAAAAAA7gAAAAAAAAAEAAAACQkJCe0AAAAAAAAA7QAAAAAAAAABAAAACg",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADyAAAAAAAAAPIAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					9,
+					1,
+					"indent",
+					null,
+					"BAAAAN0AAAAAAAAA3QAAAAAAAAABAAAACccAAAAAAAAAxwAAAAAAAAABAAAACZQAAAAAAAAAlAAAAAAAAAABAAAACXUAAAAAAAAAdQAAAAAAAAABAAAACQ",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB1AAAAAAAAAO4AAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					6,
+					1,
+					"cut",
+					null,
+					"AQAAAHQAAAAAAAAAewAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB0AAAAAAAAAHQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					4,
+					1,
+					"emmet_expand_abbreviation",
+					{
+						"tab": true
+					},
+					"AgAAAG4AAAAAAAAAbgAAAAAAAAANAAAAPHNsb3Q+PC9zbG90Pm4AAAAAAAAAcgAAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB0AAAAAAAAAHQAAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\nslot"
+					},
+					"BwAAAHEAAAAAAAAAcQAAAAAAAAABAAAAdHAAAAAAAAAAcAAAAAAAAAABAAAAb28AAAAAAAAAbwAAAAAAAAABAAAAbG4AAAAAAAAAbgAAAAAAAAABAAAAc20AAAAAAAAAbQAAAAAAAAABAAAACWsAAAAAAAAAawAAAAAAAAACAAAACQlqAAAAAAAAAGoAAAAAAAAAAQAAAAo",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAByAAAAAAAAAHIAAAAAAAAAAAAAAAAA8L8"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 481,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "utils/string.js",
+			"settings":
+			{
+				"buffer_size": 487,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAIQBAAAAAAAAhQEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACEAQAAAAAAAIQBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					16,
+					1,
+					"paste",
+					null,
+					"AQAAAIUBAAAAAAAA5gEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACFAQAAAAAAAIUBAAAAAAAAAAAAAAAA8L8"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "\n"
+					},
+					"AQAAAOYBAAAAAAAA5wEAAAAAAAAAAAAA",
+					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADmAQAAAAAAAOYBAAAAAAAAAAAAAAAA8L8"
+				]
+			]
+		},
+		{
+			"file": "utils/file.js",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -206,33 +410,89 @@
 	"expanded_folders":
 	[
 		"/Users/stoo/Dev/daisyui",
-		"/Users/stoo/Dev/daisyui/components"
+		"/Users/stoo/Dev/daisyui/actions",
+		"/Users/stoo/Dev/daisyui/data",
+		"/Users/stoo/Dev/daisyui/feedback",
+		"/Users/stoo/Dev/daisyui/input",
+		"/Users/stoo/Dev/daisyui/layout",
+		"/Users/stoo/Dev/daisyui/navigation",
+		"/Users/stoo/Dev/daisyui/transitions",
+		"/Users/stoo/Dev/daisyui/utils"
 	],
 	"file_history":
 	[
+		"/Users/stoo/Dev/daisyui/data/card-title.vue",
+		"/Users/stoo/Dev/daisyui/data/card.vue",
+		"/Users/stoo/Dev/daisyui/input/textarea.vue",
+		"/Users/stoo/Dev/daisyui/data/card-actions.vue",
+		"/Users/stoo/Dev/daisyui/transitions/screen-slide.vue",
+		"/Users/stoo/Dev/daisyui/feedback/alert.vue",
+		"/Users/stoo/Dev/daisyui/data/badge.vue",
+		"/Users/stoo/Dev/daisyui/data/accordion.vue",
+		"/Users/stoo/Dev/daisyui/actions/button.vue",
+		"/Users/stoo/Dev/daisyui/layout/divider.vue",
+		"/Users/stoo/Dev/daisyui/navigation/navbar.vue",
+		"/Users/stoo/Dev/daisyui/navigation/navbar-start.vue",
+		"/Users/stoo/Dev/daisyui/navigation/navbar-end.vue",
+		"/Users/stoo/Dev/daisyui/navigation/navbar-centre.vue",
+		"/Users/stoo/Dev/daisyui/actions/swap.vue",
+		"/Users/stoo/Dev/daisyui/actions/dropdown.vue",
+		"/Users/stoo/Dev/daisyui/actions/dropdown-menu.vue",
+		"/Users/stoo/Dev/daisyui/navigation/breadcrumbs.vue",
+		"/Users/stoo/Dev/daisyui/actions/dropdown-content.vue",
+		"/Users/stoo/Dev/daisyui/data/keyboard.vue",
+		"/Users/stoo/Dev/daisyui/feedback/icon.vue",
+		"/Users/stoo/Dev/daisyui/nuxt.js",
+		"/Users/stoo/Dev/daisyui/navigation/tabs.vue",
+		"/Users/stoo/Dev/daisyui/navigation/tab.vue",
+		"/Users/stoo/Dev/daisyui/navigation/tab-content.vue",
+		"/Users/stoo/Dev/daisyui/input/toggle.vue",
+		"/Users/stoo/Dev/daisyui/input/validator-control.vue",
+		"/Users/stoo/Dev/daisyui/input/select.vue",
+		"/Users/stoo/Dev/daisyui/input/simple-select.vue",
+		"/Users/stoo/Dev/daisyui/input/radio.vue",
+		"/Users/stoo/Dev/daisyui/input/file.vue",
+		"/Users/stoo/Dev/daisyui/input/input.vue",
+		"/Users/stoo/Dev/daisyui/input/checkbox.vue",
+		"/Users/stoo/Dev/daisyui/input/form-control.vue",
+		"/Users/stoo/Dev/daisyui/package.json",
+		"/Users/stoo/Dev/daisyui/data/input.vue",
+		"/Users/stoo/Dev/daisyui/data/stat-title.vue",
+		"/Users/stoo/Dev/daisyui/data/stat-figure.vue",
+		"/Users/stoo/Dev/daisyui/data/stats.vue",
+		"/Users/stoo/Dev/daisyui/data/stat.vue",
+		"/Users/stoo/Dev/daisyui/data/stat-value.vue",
+		"/Users/stoo/Dev/daisyui/data/stat-description.vue",
+		"/Users/stoo/Dev/daisyui/actions/modal.vue",
+		"/Users/stoo/Dev/daisyui/feedback/loading.vue",
+		"/Users/stoo/Dev/daisyui/feedback/progress.vue",
+		"/Users/stoo/Dev/daisyui/feedback/radial-progress.vue",
+		"/Users/stoo/Dev/daisyui/feedback/toast.vue",
+		"/Users/stoo/Dev/daisyui/feedback/tooltip.vue",
+		"/Users/stoo/Dev/daisyui/layout/indicator.vue",
+		"/Users/stoo/Dev/daisyui/layout/join.vue",
+		"/Users/stoo/Dev/daisyui/components/accordion.vue",
+		"/Users/stoo/Dev/daisyui/components/card.vue",
 		"/Users/stoo/Dev/daisyui/components/button.vue",
+		"/Users/stoo/Dev/daisyui/components/modal.vue",
+		"/Users/stoo/Dev/daisyui/components/props.js",
 		"/Users/stoo/Dev/daisyui/components/badge.vue",
 		"/Users/stoo/Dev/daisyui/components/alert.vue",
-		"/Users/stoo/Dev/daisyui/components/card.vue",
 		"/Users/stoo/Dev/daisyui/components/indicator.vue",
 		"/Users/stoo/Dev/daisyui/components/tooltip.vue",
 		"/Users/stoo/Dev/daisyui/components/progress.vue",
 		"/Users/stoo/Dev/daisyui/components/loading.vue",
 		"/Users/stoo/Dev/daisyui/components/join.vue",
-		"/Users/stoo/Dev/daisyui/components/props.js",
 		"/Users/stoo/Dev/daisyui/components/skeleton.vue",
-		"/Users/stoo/Dev/daisyui/components/accordion.vue",
 		"/Users/stoo/Dev/daisyui/components/radial-progress.vue",
 		"/Users/stoo/Dev/daisyui/components/toast.vue",
 		"/Users/stoo/Dev/nuxt-components/components/files/ImageUpload.vue",
 		"/Users/stoo/Dev/daisyui/utils/props.js",
-		"/Users/stoo/Dev/daisyui/package.json",
 		"/Users/stoo/Dev/nuxt-components/package.json",
 		"/Users/stoo/Dev/component-test/package.json",
 		"/Users/stoo/Dev/nuxt-components/components/transitions/SlideUp.vue",
 		"/Users/stoo/Dev/nuxt-components/utils/string.js",
 		"/Users/stoo/Dev/nuxt-components/components/buttons/ButtonAction.vue",
-		"/Users/stoo/Dev/daisyui/nuxt.js",
 		"/Users/stoo/Dev/daisyui/README.md",
 		"/Users/stoo/Dev/nuxt-components/components/buttons/LinkAction.vue",
 		"/Users/stoo/Dev/nuxt-components/components/transitions/OverlayFade.vue",
@@ -288,66 +548,19 @@
 		"/Users/stoo/Dev/nuxt-components/components/files/FileDropZone.vue",
 		"/Users/stoo/Dev/aegean-app/pages/adversaries/_id.vue",
 		"/Users/stoo/Dev/aegean-app/components/transitions/OverlayFade.vue",
-		"/Users/stoo/Dev/aegean-app/assets/styles.css",
-		"/Users/stoo/Dev/aegean-app/package.json",
-		"/Users/stoo/Dev/weevolve/components/IconView.vue",
-		"/Users/stoo/Dev/aegean-app/components/system/BackgroundView.vue",
-		"/Users/stoo/Dev/aegean-app/pages/characters/_characterId/background.vue",
-		"/Users/stoo/Dev/aegean-app/pages/characters/_characterId/heritage.vue",
-		"/Users/stoo/Dev/aegean-app/.editorconfig",
-		"/Users/stoo/Dev/aegean-app/components/accordion/AccordionGroup.vue",
-		"/Users/stoo/Dev/aegean-app/components/accordion/AccordionItem.vue",
-		"/Users/stoo/Dev/aegean-app/content/characters/background.md",
-		"/Users/stoo/Dev/aegean-app/components/IconView.vue",
-		"/Users/stoo/Dev/aegean-app/components/system/StatView.vue",
-		"/Users/stoo/Dev/aegean-app/plugins/filters.js",
-		"/Users/stoo/Dev/aegean-app/utils/list.js",
-		"/Users/stoo/Dev/aegean-app/components/buttons/RadioAction.vue",
-		"/Users/stoo/Dev/aegean-app/components/forms/RadioGroup.vue",
-		"/Users/stoo/Dev/aegean-app/pages/index.vue",
-		"/Users/stoo/Dev/aegean-app/node_modules/.cache/babel-loader/d0cc8339acede1b5436da6f2e5eee818.json.gz",
-		"/Users/stoo/Dev/aegean-app/components/CardView.vue",
-		"/Users/stoo/Dev/aegean-app/components/tabs/TabGroup.vue",
-		"/Users/stoo/Dev/aegean-app/state/character.js",
-		"/Users/stoo/Dev/aegean-app/state/data.js",
-		"/Users/stoo/Dev/aegean-app/static/data/chargen/divinities.json",
-		"/Users/stoo/Dev/aegean-app/components/forms/CheckBox.vue",
-		"/Users/stoo/Dev/aegean-app/components/system/DivinityView.vue",
-		"/Users/stoo/Dev/aegean-app/components/AccordionItem.vue",
-		"/Users/stoo/Dev/aegean-app/components/buttons/AccordionGroup.vue",
-		"/Users/stoo/Dev/aegean-app/utils/config.js",
-		"/Users/stoo/Dev/aegean-app/static/data/chargen/heritage.json",
-		"/Users/stoo/Dev/aegean-app/state/image.js",
-		"/Users/stoo/Dev/aegean-app/components/nav/MainNav.vue",
-		"/Users/stoo/Dev/aegean-app/components/system/CharacterProgress.vue",
-		"/Users/stoo/Dev/aegean-app/pages/characters/_characterId/divine.vue",
-		"/Users/stoo/Dev/aegean-app/state/index.js",
-		"/Users/stoo/Dev/aegean-app/state/user.js",
-		"/Users/stoo/Dev/aegean-app/utils/db.js",
-		"/Users/stoo/Dev/aegean-app/pages/characters/_characterId/template.vue",
-		"/Users/stoo/Dev/aegean-app/pages/characters/new.vue",
-		"/Users/stoo/Dev/aegean-app/pages/characters/index.vue",
-		"/Users/stoo/Dev/aegean-app/plugins/pouch.js",
-		"/Users/stoo/Dev/aegean-app/components/buttons/LinkAction.vue",
-		"/Users/stoo/Dev/aegean-app/utils/string.js",
-		"/Users/stoo/Dev/aegean-app/nuxt.config.js",
-		"/Users/stoo/Dev/aegean-app/node_modules/pouchdb/tonic-example.js",
-		"/Users/stoo/Dev/aegean-app/.env",
-		"/Users/stoo/Dev/aegean-app/plugins/firebase.js",
-		"/Users/stoo/Dev/aegean-app/components/system/AdversaryView.vue",
-		"/Users/stoo/Dev/aegean-app/components/buttons/StepButtons.vue",
-		"/Users/stoo/Dev/aegean-app/static/data/chargen/background.json",
-		"/Users/stoo/Dev/aegean-app/components/RenderMarkdown.vue"
+		"/Users/stoo/Dev/aegean-app/assets/styles.css"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 37.0
 	},
 	"find_in_files":
 	{
-		"height": 130.0,
+		"height": 133.0,
 		"where_history":
 		[
+			"/Users/stoo/Dev/daisyui,<project filters>",
+			""
 		]
 	},
 	"find_state":
@@ -355,6 +568,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ref",
+			"btn-",
+			"title",
+			"input-",
+			"checkbox-",
+			"input-",
+			"checkbox-",
+			"input-",
+			"input",
+			"input-",
+			"type:",
+			"btn-",
+			"'./props'",
+			"prefix"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -362,6 +589,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'../props'"
 		],
 		"reverse": false,
 		"scrollbar_highlights": true,
@@ -376,16 +604,124 @@
 		{
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "actions/dropdown-menu.vue",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 481,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								12
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Vue Syntax Highlight/Vue Component.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "utils/string.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								487,
+								487
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "utils/file.js",
+					"selected": true,
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 37.0
 	},
 	"input":
 	{
-		"height": 46.0
+		"height": 47.0
 	},
 	"layout":
 	{
@@ -426,7 +762,7 @@
 	"project": "daisyui.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 70.0
 	},
 	"save_all_on_build": true,
 	"select_file":
