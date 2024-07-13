@@ -4,9 +4,9 @@ export const notNull = value => value !== undefined && value !== null
 
 export const isNull = value => value === undefined || value  === null
 
-export const throwIfNull = (value, name) => {
+export const throwIfNull = (value, name, message) => {
 	if(isNull(value))
-		throw new Error(`Null or undefined value found for '${name}'`)
+		throw new Error(message || `Null or undefined value found for '${name}'`)
 }
 
 export const notIn = (property, obj) => !(property in obj)

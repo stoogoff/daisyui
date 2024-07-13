@@ -2,7 +2,7 @@
 	<ul tabindex="0" class="dropdown-content menu">
 		<li v-for="item in items" :key="item.title">
 			<nuxt-link :to="item.url">
-				<d-icon v-if="item.icon" :icon="item.icon" />
+				<icon v-if="item.icon" :icon="item.icon" />
 				{{ item.title }}
 			</nuxt-link>
 		</li>
