@@ -30,3 +30,8 @@ export const normalise = text =>
 export const search = (input, text) => normalise(input).indexOf(normalise(text)) !== -1
 
 export const searchObject = (input, text) => Object.values(input).some(value => search(value, text))
+
+export const isVagueUrl = input => hasProtocol(input) || input.match(/\.[^.]+$/)
+
+export const hasProtocol = input =>
+	input.startsWith('http://') || input.startsWith('https://') 
