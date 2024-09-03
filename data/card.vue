@@ -1,5 +1,5 @@
 <template>
-	<div class="card">
+	<div class="card" :class="classes">
 		<div class="card-body">
 			<figure v-if="imageUrl"><img :src="imageUrl" /></figure>
 			<slot />
