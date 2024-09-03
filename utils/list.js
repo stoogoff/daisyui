@@ -29,5 +29,15 @@ export const indexOfByProperty = (list, property, value) => {
 	return -1
 }
 
+export const map = (arr, key, value) => {
+	arr = arr || []
+
+	const output = {}
+
+	arr.forEach(item => output[item[key]] = value ? item[value] : item)
+
+	return output
+}
+
 export const unique = (arr) =>
 	arr.filter((a, i) => arr.indexOf(a) == i)
