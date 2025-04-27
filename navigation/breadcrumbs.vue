@@ -1,7 +1,7 @@
 <template>
 	<div class="breadcrumbs">
 		<ul>
-			<li v-for="item in items" :key="item.title">
+			<li v-for="item in items" :key="item.url">
 				<nuxt-link :to="item.url" v-if="item.url">
 					<icon v-if="item.icon" :icon="item.icon" />
 					{{ item.title }}

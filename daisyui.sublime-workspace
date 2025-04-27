@@ -164,206 +164,166 @@
 	"buffers":
 	[
 		{
-			"file": "actions/dropdown-menu.vue",
-			"redo_stack":
-			[
-				[
-					25,
-					1,
-					"insert",
-					{
-						"characters": " }"
-					},
-					"AgAAAIgAAAAAAAAAiAAAAAAAAAABAAAAfYcAAAAAAAAAhwAAAAAAAAABAAAAIA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACJAAAAAAAAAIkAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					24,
-					1,
-					"insert",
-					{
-						"characters": " item"
-					},
-					"BQAAAIYAAAAAAAAAhgAAAAAAAAABAAAAbYUAAAAAAAAAhQAAAAAAAAABAAAAZYQAAAAAAAAAhAAAAAAAAAABAAAAdIMAAAAAAAAAgwAAAAAAAAABAAAAaYIAAAAAAAAAggAAAAAAAAABAAAAIA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACHAAAAAAAAAIcAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					23,
-					1,
-					"insert",
-					{
-						"characters": "{"
-					},
-					"AQAAAIEAAAAAAAAAgQAAAAAAAAABAAAAew",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACCAAAAAAAAAIIAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					22,
-					1,
-					"insert_snippet",
-					{
-						"contents": "\"$0\""
-					},
-					"AQAAAIAAAAAAAAAAgAAAAAAAAAACAAAAIiI",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACBAAAAAAAAAIEAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					21,
-					1,
-					"insert",
-					{
-						"characters": "m="
-					},
-					"AgAAAH8AAAAAAAAAfwAAAAAAAAABAAAAPX4AAAAAAAAAfgAAAAAAAAABAAAAbQ",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					20,
-					1,
-					"insert",
-					{
-						"characters": "bind:ite"
-					},
-					"CAAAAH0AAAAAAAAAfQAAAAAAAAABAAAAZXwAAAAAAAAAfAAAAAAAAAABAAAAdHsAAAAAAAAAewAAAAAAAAABAAAAaXoAAAAAAAAAegAAAAAAAAABAAAAOnkAAAAAAAAAeQAAAAAAAAABAAAAZHgAAAAAAAAAeAAAAAAAAAABAAAAbncAAAAAAAAAdwAAAAAAAAABAAAAaXYAAAAAAAAAdgAAAAAAAAABAAAAYg",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB+AAAAAAAAAH4AAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					19,
-					1,
-					"insert",
-					{
-						"characters": " v-"
-					},
-					"AwAAAHUAAAAAAAAAdQAAAAAAAAABAAAALXQAAAAAAAAAdAAAAAAAAAABAAAAdnMAAAAAAAAAcwAAAAAAAAABAAAAIA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB2AAAAAAAAAHYAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					16,
-					1,
-					"close_tag",
-					{
-						"insert_slash": true
-					},
-					"AQAAAPIAAAAAAAAA8gAAAAAAAAAGAAAAL3Nsb3Q+",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAD4AAAAAAAAAPgAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					15,
-					1,
-					"insert",
-					{
-						"characters": "<"
-					},
-					"AQAAAPEAAAAAAAAA8QAAAAAAAAABAAAAPA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADyAAAAAAAAAPIAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					14,
-					1,
-					"left_delete",
-					null,
-					"AQAAAPEAAAAAAAAA8gAAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADxAAAAAAAAAPEAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					13,
-					1,
-					"insert",
-					{
-						"characters": "\n"
-					},
-					"AgAAAO4AAAAAAAAA7gAAAAAAAAAEAAAACQkJCe0AAAAAAAAA7QAAAAAAAAABAAAACg",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADyAAAAAAAAAPIAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					9,
-					1,
-					"indent",
-					null,
-					"BAAAAN0AAAAAAAAA3QAAAAAAAAABAAAACccAAAAAAAAAxwAAAAAAAAABAAAACZQAAAAAAAAAlAAAAAAAAAABAAAACXUAAAAAAAAAdQAAAAAAAAABAAAACQ",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB1AAAAAAAAAO4AAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					6,
-					1,
-					"cut",
-					null,
-					"AQAAAHQAAAAAAAAAewAAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB0AAAAAAAAAHQAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					4,
-					1,
-					"emmet_expand_abbreviation",
-					{
-						"tab": true
-					},
-					"AgAAAG4AAAAAAAAAbgAAAAAAAAANAAAAPHNsb3Q+PC9zbG90Pm4AAAAAAAAAcgAAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAB0AAAAAAAAAHQAAAAAAAAAAAAAAAAA8L8"
-				],
-				[
-					3,
-					1,
-					"insert",
-					{
-						"characters": "\nslot"
-					},
-					"BwAAAHEAAAAAAAAAcQAAAAAAAAABAAAAdHAAAAAAAAAAcAAAAAAAAAABAAAAb28AAAAAAAAAbwAAAAAAAAABAAAAbG4AAAAAAAAAbgAAAAAAAAABAAAAc20AAAAAAAAAbQAAAAAAAAABAAAACWsAAAAAAAAAawAAAAAAAAACAAAACQlqAAAAAAAAAGoAAAAAAAAAAQAAAAo",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAByAAAAAAAAAHIAAAAAAAAAAAAAAAAA8L8"
-				]
-			],
+			"file": "navigation/breadcrumbs.vue",
 			"settings":
 			{
-				"buffer_size": 481,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "utils/string.js",
-			"settings":
-			{
-				"buffer_size": 487,
+				"buffer_size": 642,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			},
 			"undo_stack":
 			[
 				[
-					15,
+					3,
 					1,
 					"insert",
 					{
-						"characters": "\n"
+						"characters": "`breadcru"
 					},
-					"AQAAAIQBAAAAAAAAhQEAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACEAQAAAAAAAIQBAAAAAAAAAAAAAAAA8L8"
+					"CQAAAFAAAAAAAAAAUQAAAAAAAAAAAAAAUQAAAAAAAABSAAAAAAAAAAAAAABSAAAAAAAAAFMAAAAAAAAAAAAAAFMAAAAAAAAAVAAAAAAAAAAAAAAAVAAAAAAAAABVAAAAAAAAAAAAAABVAAAAAAAAAFYAAAAAAAAAAAAAAFYAAAAAAAAAVwAAAAAAAAAAAAAAVwAAAAAAAABYAAAAAAAAAAAAAABYAAAAAAAAAFkAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "mb_"
+					},
+					"AwAAAFkAAAAAAAAAWgAAAAAAAAAAAAAAWgAAAAAAAABbAAAAAAAAAAAAAABbAAAAAAAAAFwAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAWQAAAAAAAABZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "$"
+					},
+					"AQAAAFwAAAAAAAAAXQAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAXAAAAAAAAABcAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAF0AAAAAAAAAXwAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAXQAAAAAAAABdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"right_delete",
+					null,
+					"AQAAAF4AAAAAAAAAXgAAAAAAAAABAAAAfQ",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAXgAAAAAAAABeAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": "}`"
+					},
+					"AgAAAGgAAAAAAAAAaQAAAAAAAAAAAAAAaQAAAAAAAABqAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAaAAAAAAAAABoAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					16,
 					1,
-					"paste",
-					null,
-					"AQAAAIUBAAAAAAAA5gEAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAACFAQAAAAAAAIUBAAAAAAAAAAAAAAAA8L8"
+					"insert",
+					{
+						"characters": "("
+					},
+					"AQAAADsAAAAAAAAAPAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAOwAAAAAAAAA7AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": ","
+					},
+					"AQAAAEAAAAAAAAAAQQAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAPC/"
 				],
 				[
 					19,
 					1,
 					"insert",
 					{
-						"characters": "\n"
+						"characters": " idx)"
 					},
-					"AQAAAOYBAAAAAAAA5wEAAAAAAAAAAAAA",
-					"AgAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAADmAQAAAAAAAOYBAAAAAAAAAAAAAAAA8L8"
+					"BQAAAEEAAAAAAAAAQgAAAAAAAAAAAAAAQgAAAAAAAABDAAAAAAAAAAAAAABDAAAAAAAAAEQAAAAAAAAAAAAAAEQAAAAAAAAARQAAAAAAAAAAAAAARQAAAAAAAABGAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAQQAAAAAAAABBAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "_$"
+					},
+					"AgAAAHAAAAAAAAAAcQAAAAAAAAAAAAAAcQAAAAAAAAByAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAHIAAAAAAAAAdAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAcgAAAAAAAAByAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": "idx"
+					},
+					"AwAAAHMAAAAAAAAAdAAAAAAAAAAAAAAAdAAAAAAAAAB1AAAAAAAAAAAAAAB1AAAAAAAAAHYAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAcwAAAAAAAABzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					1,
+					"left_delete",
+					null,
+					"AQAAAFcAAAAAAAAAVwAAAAAAAAAfAAAAYGJyZWFkY3J1bWJfJHtpdGVtLnRpdGxlfV8ke2lkeA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAVwAAAAAAAAB2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					2,
+					"right_delete",
+					null,
+					"AgAAAFcAAAAAAAAAVwAAAAAAAAABAAAAfVcAAAAAAAAAVwAAAAAAAAABAAAAYA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "item.url"
+					},
+					"CAAAAFcAAAAAAAAAWAAAAAAAAAAAAAAAWAAAAAAAAABZAAAAAAAAAAAAAABZAAAAAAAAAFoAAAAAAAAAAAAAAFoAAAAAAAAAWwAAAAAAAAAAAAAAWwAAAAAAAABcAAAAAAAAAAAAAABcAAAAAAAAAF0AAAAAAAAAAAAAAF0AAAAAAAAAXgAAAAAAAAAAAAAAXgAAAAAAAABfAAAAAAAAAAAAAAA",
+					"BwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwvwAAAAABAAAAVwAAAAAAAABXAAAAAAAAAAAAAAAAAPC/"
 				]
 			]
 		},
 		{
-			"file": "utils/file.js",
+			"file": "utils/string.js",
 			"settings":
 			{
-				"buffer_size": 294,
+				"buffer_size": 1090,
 				"line_ending": "Unix"
 			}
 		}
@@ -409,27 +369,27 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/stoo/Dev/daisyui",
-		"/Users/stoo/Dev/daisyui/actions",
-		"/Users/stoo/Dev/daisyui/data",
-		"/Users/stoo/Dev/daisyui/feedback",
-		"/Users/stoo/Dev/daisyui/input",
-		"/Users/stoo/Dev/daisyui/layout",
-		"/Users/stoo/Dev/daisyui/navigation",
-		"/Users/stoo/Dev/daisyui/transitions",
-		"/Users/stoo/Dev/daisyui/utils"
 	],
 	"file_history":
 	[
-		"/Users/stoo/Dev/daisyui/data/card-title.vue",
+		"/Users/stoo/Dev/daisyui/actions/dropdown-menu.vue",
+		"/Users/stoo/Dev/daisyui/feedback/icon.vue",
 		"/Users/stoo/Dev/daisyui/data/card.vue",
+		"/Users/stoo/Dev/daisyui/utils/string.js",
+		"/Users/stoo/Dev/daisyui/actions/button.vue",
+		"/Users/stoo/Dev/daisyui/input/drop-zone.vue",
+		"/Users/stoo/Dev/daisyui/utils/assert.js",
+		"/Users/stoo/Dev/daisyui/utils/list.js",
+		"/Users/stoo/Dev/daisyui/utils/storage.js",
+		"/Users/stoo/Dev/daisyui/layout/drawer.vue",
+		"/Users/stoo/Dev/daisyui/utils/date.js",
+		"/Users/stoo/Dev/daisyui/data/card-title.vue",
 		"/Users/stoo/Dev/daisyui/input/textarea.vue",
 		"/Users/stoo/Dev/daisyui/data/card-actions.vue",
 		"/Users/stoo/Dev/daisyui/transitions/screen-slide.vue",
 		"/Users/stoo/Dev/daisyui/feedback/alert.vue",
 		"/Users/stoo/Dev/daisyui/data/badge.vue",
 		"/Users/stoo/Dev/daisyui/data/accordion.vue",
-		"/Users/stoo/Dev/daisyui/actions/button.vue",
 		"/Users/stoo/Dev/daisyui/layout/divider.vue",
 		"/Users/stoo/Dev/daisyui/navigation/navbar.vue",
 		"/Users/stoo/Dev/daisyui/navigation/navbar-start.vue",
@@ -437,11 +397,9 @@
 		"/Users/stoo/Dev/daisyui/navigation/navbar-centre.vue",
 		"/Users/stoo/Dev/daisyui/actions/swap.vue",
 		"/Users/stoo/Dev/daisyui/actions/dropdown.vue",
-		"/Users/stoo/Dev/daisyui/actions/dropdown-menu.vue",
 		"/Users/stoo/Dev/daisyui/navigation/breadcrumbs.vue",
 		"/Users/stoo/Dev/daisyui/actions/dropdown-content.vue",
 		"/Users/stoo/Dev/daisyui/data/keyboard.vue",
-		"/Users/stoo/Dev/daisyui/feedback/icon.vue",
 		"/Users/stoo/Dev/daisyui/nuxt.js",
 		"/Users/stoo/Dev/daisyui/navigation/tabs.vue",
 		"/Users/stoo/Dev/daisyui/navigation/tab.vue",
@@ -541,18 +499,11 @@
 		"/Users/stoo/Dev/component-test/utils/validators.js",
 		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/buttons/ButtonAction.vue",
 		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/AlertView.vue",
-		"/Users/stoo/Dev/nuxt-components/assets/styles.css",
-		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/nav/MainNav.vue",
-		"/Users/stoo/Dev/component-test/node_modules/weevolve-nuxt-components/components/files/FileDropZone.vue",
-		"/Users/stoo/Dev/component-test/.editorconfig",
-		"/Users/stoo/Dev/nuxt-components/components/files/FileDropZone.vue",
-		"/Users/stoo/Dev/aegean-app/pages/adversaries/_id.vue",
-		"/Users/stoo/Dev/aegean-app/components/transitions/OverlayFade.vue",
-		"/Users/stoo/Dev/aegean-app/assets/styles.css"
+		"/Users/stoo/Dev/nuxt-components/assets/styles.css"
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -568,6 +519,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<dl",
+			"Storage(",
+			"localStorage",
+			"process.server",
+			"isnull",
+			"map",
+			"this.dragover",
+			"dragover",
+			"this.dragover = ",
+			"ref",
+			"icon",
+			"\t\t\t\t\tcase ",
+			"delete",
+			"icon",
+			"next",
+			"5",
 			"ref",
 			"btn-",
 			"title",
@@ -606,19 +573,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "actions/dropdown-menu.vue",
+					"file": "navigation/breadcrumbs.vue",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 481,
+						"buffer_size": 642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								59,
-								12
+								95,
+								95
 							]
 						],
 						"settings":
@@ -631,64 +598,30 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"stack_multiselect": false,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
 					"file": "utils/string.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 487,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								487,
-								487
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": false,
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 2,
-								"tabSize": 2
-							},
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"stack_multiselect": false,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "utils/file.js",
 					"selected": true,
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 294,
+						"buffer_size": 1090,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								387,
+								387
+							],
+							[
+								416,
+								420
 							]
 						],
 						"settings":
@@ -717,7 +650,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 37.0
+		"height": 38.0
 	},
 	"input":
 	{
@@ -762,7 +695,7 @@
 	"project": "daisyui.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 72.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -771,6 +704,26 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"bread",
+				"navigation/breadcrumbs.vue"
+			],
+			[
+				"btn",
+				"actions/button.vue"
+			],
+			[
+				"card",
+				"data/card.vue"
+			],
+			[
+				"asser",
+				"utils/assert.js"
+			],
+			[
+				"icon",
+				"feedback/icon.vue"
+			],
 			[
 				"valid",
 				"nuxt-components/utils/validators.js"
@@ -790,10 +743,6 @@
 			[
 				"pack",
 				"package.json"
-			],
-			[
-				"icon",
-				"components/IconView.vue"
 			],
 			[
 				"nuxt.",
@@ -830,10 +779,6 @@
 			[
 				".card",
 				"node_modules/.cache/babel-loader/d0cc8339acede1b5436da6f2e5eee818.json.gz"
-			],
-			[
-				"card",
-				"components/CardView.vue"
 			],
 			[
 				"accord",
@@ -1270,18 +1215,6 @@
 			[
 				"silver",
 				"src/setting/careers/silver-tongue.md"
-			],
-			[
-				"ath",
-				"src/setting/careers/athlete.md"
-			],
-			[
-				"cam",
-				"src/rules/talents/camouflage.md"
-			],
-			[
-				"hunt",
-				"src/setting/careers/hunter.md"
 			]
 		],
 		"width": 0.0
