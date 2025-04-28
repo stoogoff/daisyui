@@ -5,7 +5,8 @@
 		role="tab"
 		class="tab"
 		:checked="active"
-		:aria-label="label" />
+		:aria-label="label"
+		@click="activated" />
 </template>
 <script>
 
@@ -24,6 +25,16 @@ export default Vue.component('Tab', {
 		active: {
 			type: Boolean,
 			default: false,
+		},
+	},
+
+	methods: {
+		activated() {
+			this.$emit('activated', {
+				active: !this.active,
+				label: this.label,
+				group: this.group,
+			})
 		},
 	},
 })
